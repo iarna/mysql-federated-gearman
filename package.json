@@ -1,0 +1,26 @@
+{
+  "name": "mysql-federated-gearman",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mysql2": "git://github.com/iarna/node-mysql2.git#fix-ok-packet-length",
+    "node-gearman": "~0.2.2",
+    "promisable": "~1.4.0",
+    "shallow-copy": "~0.0.1"
+  },
+  "main": "example.js",
+  "license": "BSD",
+  "scripts": {
+    "test": "node node_modules/tape/bin/tape $(find test -name '*.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iarna/mysql-federated-gearman.git"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
